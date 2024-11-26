@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <a href="index.php">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <button class="popup-login">Login</button>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Hubungi Kami</h2>
+        <p>
+          Jika Anda memiliki pertanyaan atau membutuhkan bantuan lebih lanjut,
+          silakan isi formulir di bawah ini. Kami akan segera menghubungi Anda.
+        </p>
+      </section>
+
+      <section>
+        <h2>Formulir Kontak</h2>
+        <form action="send_message.php" method="post">
+          <label for="name">Nama:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Masukkan nama Anda"
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Masukkan email Anda"
+          />
+
+          <label for="message">Pesan:</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Tuliskan pesan Anda"
+          ></textarea>
+
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Alamat Kami</h2>
+        <p>Alamat: UIN Sunan Kalijaga, Yogyakarta</p>
+        <p>Telepon: 085243337779</p>
+        <p>Email: present@gmail.com</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2024 Sistem Presensi Keterlambatan. Semua hak cipta dilindungi.
+      </p>
+    </footer>
+
+    <script type="text/javascript">
+      // JavaScript tambahan bisa ditambahkan di sini jika diperlukan
+    </script>
+  </body>
+</html>
